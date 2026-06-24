@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hsbcTest": "npx playwright test src/test/ActionItem5/HSBC_ActionItem5.spec.ts --headed --workers=1 --project=chrome",
+    "bingActionItem": "playwright test src/test/ActionItem5/bingActionItem.spec.ts --headed --workers=1 --project=chrome", 
+    "bingTest": "npx playwright test src/test/Day1_061626/T1_BingSearch.spec.ts --headed --workers=1 --project=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
